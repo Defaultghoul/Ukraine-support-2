@@ -1,0 +1,777 @@
+ .Donate-info {
+   height: 644px;
+   background-color: #050404;
+
+   &>div {
+     width: 1153px;
+     height: 515px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: row;
+
+     padding-top: 37px;
+
+     img {
+       margin-right: 132px;
+       margin-top: 55px;
+
+       width: 396px;
+       height: 460px;
+
+			 border-radius: 10px;
+
+			 transition: 1.2s;
+
+			 &:hover {
+				width: 300px;
+				height: 100px;
+			 }
+     }
+
+     &>div {
+       height: 460px;
+       width: 625px;
+
+       h3 {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 64px;
+         line-height: 77px;
+
+         color: #FFD76E;
+
+         margin-bottom: 46px;
+       }
+
+       p {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 29px;
+         text-align: justify;
+
+         color: #FFFFFF;
+
+         width: 559px;
+
+         margin-bottom: 130px;
+         margin-left: 66px;
+       }
+
+       button {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 29px;
+
+         padding: 15px 31px;
+
+         color: #000000;
+         background: #FFD76E;
+         border-radius: 10px;
+
+         border: none;
+         margin-left: 423px;
+       }
+     }
+   }
+ }
+
+ .Kharkiv {
+   background-image: url(../img/City-backround.png);
+   height: 300px;
+   text-align: center;
+   position: relative;
+
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+
+   h4 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 29px;
+
+     color: #000000;
+
+     padding-top: 72px;
+     padding-bottom: 25px;
+   }
+
+   p {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 24px;
+
+     color: #000000;
+
+     width: 351px;
+
+     margin: 0 auto;
+   }
+
+   div:nth-of-type(1) {
+     box-sizing: border-box;
+     position: absolute;
+     width: 248px;
+     height: 369px;
+
+     border: 2px solid #FFD76E;
+     transform: matrix(0.99, -0.15, 0.17, 0.98, 0, 0);
+     right: 35px;
+     bottom: 30px;
+   }
+
+   div:nth-of-type(2) {
+     box-sizing: border-box;
+     position: absolute;
+     width: 179px;
+     height: 341px;
+
+     border: 2px solid #FFFFFF;
+     transform: matrix(-0.17, -0.98, 0.99, -0.15, 0, 0);
+
+     right: -120px;
+     bottom: -55px;
+   }
+ }
+
+ .Donate {
+   height: 737px;
+   background-color: #050404;
+   box-sizing: border-box;
+
+   h3 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 64px;
+     line-height: 77px;
+
+     color: #FFD76E;
+     text-align: center;
+     padding-top: 39px;
+     padding-bottom: 40px;
+   }
+
+   &>div {
+     width: 1012px;
+     height: 529px;
+     margin: 0 auto;
+
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     position: relative;
+
+     &>div:nth-of-type(1) {
+       img {
+         width: 395px;
+         height: 529px;
+
+       }
+
+       p {
+         position: absolute;
+
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 32px;
+         line-height: 39px;
+
+
+         color: #000000;
+         padding: 88px 40px;
+
+         background: rgba(255, 255, 255, 0.9);
+         border-radius: 32px;
+
+         left: 0px;
+         bottom: 0px;
+       }
+     }
+
+     &>div:nth-of-type(2) {
+       img {
+         width: 395px;
+         height: 529px;
+       }
+
+       p {
+         position: absolute;
+
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 32px;
+         line-height: 39px;
+
+
+         color: #000000;
+         padding: 88px 20px;
+
+         background: rgba(255, 255, 255, 0.9);
+         border-radius: 32px;
+
+         right: 0px;
+         bottom: 0px;
+       }
+     }
+   }
+ }
+
+ .Kyiv {
+   background-image: url(../img/City-backround.png);
+   height: 300px;
+   text-align: center;
+   position: relative;
+
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   h4 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 29px;
+
+     color: #000000;
+
+     padding-top: 72px;
+     padding-bottom: 25px;
+   }
+
+   p {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 24px;
+
+     color: #000000;
+
+     width: 351px;
+
+     margin: 0 auto;
+   }
+ }
+
+ .Game {
+   height: 1362px;
+
+   background-image: url(../img/Game-backround.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   &>div {
+     width: 1138px;
+     height: 1157px;
+     margin: 0 auto;
+
+     &>div:nth-of-type(1) {
+       width: 1134px;
+       height: 452px;
+
+       padding-top: 43px;
+       margin: 0 auto;
+       margin-bottom: 293px;
+
+       &>h3 {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 64px;
+         line-height: 77px;
+
+         color: #FFD76E;
+         text-align: center;
+
+         margin-bottom: 30px;
+       }
+
+       &>div {
+         width: 1134px;
+         height: 345px;
+
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+         &>img {
+           height: 29px;
+         }
+
+         &>div {
+
+           &>div {
+             border: 5px solid #00a2ff;
+             border-radius: 10px;
+             height: 292px;
+             width: 292px;
+
+             overflow: hidden;
+
+             &:hover img {
+               transform: scale(1.1);
+             }
+
+             img {
+               height: 292px;
+
+               transition: transform 0.25s;
+             }
+           }
+
+           &>p {
+             font-family: 'Inter';
+             font-style: normal;
+             font-weight: 400;
+             font-size: 24px;
+             line-height: 29px;
+
+             color: #FFFFFF;
+             text-align: center;
+             margin-top: 23px;
+           }
+         }
+
+       }
+     }
+
+     &>div:nth-of-type(2) {
+
+       &>h3 {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 64px;
+         line-height: 77px;
+
+         color: #FFD76E;
+         text-align: center;
+
+         margin-bottom: 23px;
+       }
+
+       &>div {
+         width: 1134px;
+         height: 294px;
+
+         margin: 0 auto;
+
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+         &>img {
+           height: 29px;
+         }
+
+
+
+         &>div {
+           border: 5px solid #00a2ff;
+           border-radius: 10px;
+           height: 292px;
+           width: 292px;
+
+           overflow: hidden;
+
+           &:hover img {
+             transform: scale(1.1);
+           }
+
+           img {
+             height: 292px;
+
+             transition: transform 0.25s;
+           }
+         }
+       }
+
+     }
+   }
+ }
+
+ .Kherson {
+   background-image: url(../img/City-backround.png);
+   height: 300px;
+   text-align: center;
+   position: relative;
+
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   h4 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 29px;
+
+     color: #000000;
+
+     padding-top: 72px;
+     padding-bottom: 25px;
+   }
+
+   p {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 24px;
+
+     color: #000000;
+
+     width: 351px;
+
+     margin: 0 auto;
+   }
+ }
+
+ .Achievements {
+   height: 888px;
+   background-color: #050404;
+
+   h3 {
+     padding-top: 54px;
+     margin-bottom: 24px;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 64px;
+     line-height: 77px;
+     text-align: center;
+
+     color: #FFD76E;
+   }
+
+   &>div {
+     padding-bottom: 112px;
+     margin-top: 24px;
+
+     width: 1011px;
+     height: 621px;
+
+     margin: 0 auto;
+
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
+     &>div:nth-of-type(1) {
+       width: 312px;
+       height: 621px;
+
+       img:nth-of-type(1) {
+         width: 312px;
+         height: 250px;
+
+				 border-radius: 10px;
+       }
+
+       img:nth-of-type(2) {
+         width: 260px;
+         height: 106px;
+
+				 border-radius: 10px;
+       }
+
+       &>p {
+         border: 2px solid #FFD76E;
+
+         padding: 22px 12px;
+
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 20px;
+         line-height: 24px;
+         text-align: justify;
+
+         color: #FFFFFF;
+
+         margin-top: 49px;
+         margin-bottom: 52px;
+
+				 border-radius: 10px;
+       }
+     }
+
+     &>div:nth-of-type(2) {
+       width: 312px;
+       height: 621px;
+
+       &>img {
+         width: 312px;
+         height: 250px;
+
+				 border-radius: 10px;
+       }
+
+       &>p {
+         border: 2px solid #FFD76E;
+
+         padding: 95px 5px 45px 5px;
+
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 20px;
+         line-height: 24px;
+         text-align: justify;
+
+         color: #FFFFFF;
+
+         margin-bottom: 41px;
+
+				 border-radius: 10px;
+       }
+     }
+
+     &>div:nth-of-type(3) {
+       width: 312px;
+       height: 612px;
+
+       &>img {
+         width: 312px;
+         height: 173px;
+
+				 border-radius: 10px;
+       }
+
+       &>p {
+         border: 2px solid #FFD76E;
+
+         padding: 148px 15px;
+
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 20px;
+         line-height: 24px;
+         text-align: justify;
+
+         color: #FFFFFF;
+
+         margin-top: 12px;
+
+				 border-radius: 10px;
+       }
+     }
+   }
+ }
+
+ .Mariupol {
+   background-image: url(../img/City-backround.png);
+   height: 300px;
+   text-align: center;
+   position: relative;
+
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   h4 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 29px;
+
+     color: #000000;
+
+     padding-top: 72px;
+     padding-bottom: 25px;
+   }
+
+   p {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 24px;
+
+     color: #000000;
+
+     width: 351px;
+
+     margin: 0 auto;
+   }
+ }
+
+ .Details {
+   background: #050404;
+   height: 887px;
+   margin: 0 auto;
+
+   &>div {
+     width: 752px;
+     height: 677px;
+     margin: 0 auto;
+     padding-top: 50px;
+
+     &>h3 {
+       margin-bottom: 100px;
+
+       text-align: center;
+
+       font-family: 'Inter';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 64px;
+       line-height: 77px;
+
+       color: #FFD76E;
+     }
+
+     .details-info {
+       width: 752px;
+       height: 499px;
+       margin: 0 auto;
+
+			 background-image: url(../img/Details.png);
+			
+			
+			& > ul {
+				width: 717px;
+				height: 448px;
+				padding: 37px 20px 24px 15px;
+
+
+				& > li {
+					height: 65px;
+
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+
+					&:not(:last-child) {
+						margin-bottom: 32px;
+					}
+
+					&:nth-of-type(1) {
+						// padding-top: 37px;
+					}
+
+					& > p {
+						font-family: 'Inter';
+						font-style: normal;
+						font-weight: 300;
+						font-size: 20px;
+						line-height: 24px;
+
+						color: #FFD76E;
+					}
+
+					& > h5 {
+						font-family: 'Inter';
+						font-style: normal;
+						font-weight: 500;
+						font-size: 20px;
+						line-height: 24px;
+
+						color: #000000;
+					}
+				}
+			}
+
+     }
+   }
+ }
+
+ .footer {
+   background-image: url(../img/Footer-backround.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 356px;
+
+   overflow: hidden;
+
+   &>div {
+     height: 226px;
+     width: 808px;
+
+     margin: 0 auto;
+
+     padding-top: 69px;
+     padding-bottom: 61px;
+     padding-left: 400px;
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+     &>h3 {
+       box-sizing: border-box;
+       font-family: 'Inter';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 48px;
+       line-height: 58px;
+
+       color: #FFFFFF;
+     }
+
+     .footer-icons {
+       width: 35px;
+       height: 226px;
+
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       align-items: center;
+
+       .footer-icon {
+         text-decoration: none;
+         list-style: none;
+       }
+
+       .fa {
+         font-size: 29px;
+         color: #FFD76E;
+       }
+     }
+
+     &>div {
+       position: relative;
+
+       div:nth-of-type(1) {
+         width: 167px;
+         height: 246px;
+
+         border: 2px solid #FFD76E;
+         transform: rotate(-54.46deg);
+
+         position: absolute;
+         right: 320px;
+         bottom: -340px;
+
+       }
+
+       div:nth-of-type(2) {
+         width: 119px;
+         height: 230px;
+
+         border: 2px solid #FFFFFF;
+         transform: rotate(-144.46deg);
+
+         position: absolute;
+         right: 216px;
+         bottom: -280px;
+
+       }
+     }
+   }
+
+ }

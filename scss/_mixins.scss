@@ -1,0 +1,22 @@
+@mixin FlexCenter() {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin ModalCenter() {
+	position: fixed;
+
+	left: 50%;
+	top: 50%;
+
+	transform: translate(-50%, -50%);
+}
+
+@mixin textStyle($weight, $size, $line) {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: $weight;
+	font-size: $size;
+	line-height: $line;
+}
