@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"); /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -153,10 +154,6 @@ table {
   border-radius: 10px;
   transition: 1.2s;
 }
-.Donate-info > div img:hover {
-  width: 300px;
-  height: 100px;
-}
 .Donate-info > div > div {
   height: 460px;
   width: 625px;
@@ -234,6 +231,10 @@ table {
   transform: matrix(0.99, -0.15, 0.17, 0.98, 0, 0);
   right: 35px;
   bottom: 30px;
+  transition: 2s;
+}
+.Kharkiv div:nth-of-type(1):hover {
+  transform: rotate(3000deg);
 }
 .Kharkiv div:nth-of-type(2) {
   box-sizing: border-box;
@@ -244,6 +245,10 @@ table {
   transform: matrix(-0.17, -0.98, 0.99, -0.15, 0, 0);
   right: -120px;
   bottom: -55px;
+  transition: 2s;
+}
+.Kharkiv div:nth-of-type(2):hover {
+  transform: rotate(3000deg);
 }
 
 .Donate {
@@ -613,6 +618,15 @@ table {
   line-height: 77px;
   color: #FFD76E;
 }
+.Details > div > h3:hover p {
+  display: inline;
+}
+.Details > div > h3 > p {
+  display: none;
+  font-size: 15px;
+  position: absolute;
+  color: #ffffff;
+}
 .Details > div .details-info {
   width: 752px;
   height: 499px;
@@ -640,6 +654,11 @@ table {
   font-size: 20px;
   line-height: 24px;
   color: #FFD76E;
+  width: 200px;
+  transition: 1s;
+}
+.Details > div .details-info > ul > li > p:hover {
+  padding-left: 15px;
 }
 .Details > div .details-info > ul > li > h5 {
   font-family: "Inter";
@@ -648,6 +667,10 @@ table {
   font-size: 20px;
   line-height: 24px;
   color: #000000;
+  transition: 1s;
+}
+.Details > div .details-info > ul > li > h5:hover {
+  padding-left: 10px;
 }
 
 .footer {
@@ -692,6 +715,10 @@ table {
 .footer > div .footer-icons .fa {
   font-size: 29px;
   color: #FFD76E;
+  transition: 1s;
+}
+.footer > div .footer-icons .fa:hover {
+  font-size: 45px;
 }
 .footer > div > div {
   position: relative;
@@ -704,6 +731,10 @@ table {
   position: absolute;
   right: 320px;
   bottom: -340px;
+  transition: 2s;
+}
+.footer > div > div div:nth-of-type(1):hover {
+  transform: rotate(150deg);
 }
 .footer > div > div div:nth-of-type(2) {
   width: 119px;
@@ -713,4 +744,33 @@ table {
   position: absolute;
   right: 216px;
   bottom: -280px;
+  transition: 2s;
+}
+.footer > div > div div:nth-of-type(2):hover {
+  transform: rotate(150deg);
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- tsparticles container ---- */
+#tsparticles {
+  z-index: -1;
+}
+
+body::-webkit-scrollbar {
+  width: 8px; /* ширина всей полосы прокрутки */
+}
+
+body::-webkit-scrollbar-track {
+  background: black; /* цвет зоны отслеживания */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white; /* цвет бегунка */
+  border-radius: 20px; /* округлось бегунка */
+  border: none; /* отступ вокруг бегунка */
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
