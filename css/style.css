@@ -193,6 +193,11 @@ table {
   border-radius: 10px;
   border: none;
   margin-left: 423px;
+  transition: 0.5s;
+}
+.Donate-info > div > div button:hover {
+  padding: 20px 36px;
+  font-size: 25px;
 }
 
 .Kharkiv {
@@ -283,12 +288,12 @@ table {
   transition: 1s;
 }
 .Donate > div > div:nth-of-type(1):hover img {
-  width: 445px;
-  height: 579px;
+  width: 430px;
+  height: 564px;
 }
 .Donate > div > div:nth-of-type(1):hover p {
-  font-size: 37px;
-  bottom: -50px;
+  font-size: 35.5px;
+  bottom: -35px;
 }
 .Donate > div > div:nth-of-type(1) img {
   width: 395px;
@@ -314,12 +319,12 @@ table {
   transition: 1s;
 }
 .Donate > div > div:nth-of-type(2):hover img {
-  width: 445px;
-  height: 579px;
+  width: 430px;
+  height: 564px;
 }
 .Donate > div > div:nth-of-type(2):hover p {
-  font-size: 37px;
-  bottom: -50px;
+  font-size: 35.2px;
+  bottom: -35px;
 }
 .Donate > div > div:nth-of-type(2) img {
   width: 395px;
@@ -534,15 +539,18 @@ table {
 .Achievements > div > div:nth-of-type(1) {
   width: 312px;
   height: 621px;
+  transition: 1s;
 }
 .Achievements > div > div:nth-of-type(1) img:nth-of-type(1) {
   width: 312px;
   height: 250px;
+  transition: 1s;
   border-radius: 10px;
 }
 .Achievements > div > div:nth-of-type(1) img:nth-of-type(2) {
   width: 260px;
   height: 106px;
+  transition: 1s;
   border-radius: 10px;
 }
 .Achievements > div > div:nth-of-type(1) > p {

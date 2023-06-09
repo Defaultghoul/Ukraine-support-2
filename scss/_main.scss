@@ -70,6 +70,13 @@
 
           border: none;
           margin-left: 423px;
+
+					transition: 0.5s;
+
+					&:hover {
+						padding: 20px 36px;
+						font-size: 25px;
+					}
         }
      }
    }
@@ -182,13 +189,13 @@
      &>div:nth-of-type(1) {
 			transition: 1s;
 			&:hover img {
-         width: 445px;
-         height: 579px;
+         width: 430px;
+         height: 564px;
 			}
 
 			&:hover p {
-				font-size: 37px;
-				bottom: -50px;
+				font-size: 35.5px;
+				bottom: -35px;
 			}
        img {
          width: 395px;
@@ -224,13 +231,13 @@
      &>div:nth-of-type(2) {
 			transition: 1s;
 			&:hover img {
-         width: 445px;
-         height: 579px;
+         width: 430px;
+         height: 564px;
 			}
 
 			&:hover p {
-				font-size: 37px;
-				bottom: -50px;
+				font-size: 35.2px;
+				bottom: -35px;
 			}
 
        img {
@@ -521,10 +528,13 @@
      &>div:nth-of-type(1) {
        width: 312px;
        height: 621px;
+			 transition: 1s;
 
        img:nth-of-type(1) {
          width: 312px;
          height: 250px;
+
+				 transition: 1s;
 
 				 border-radius: 10px;
        }
@@ -532,6 +542,8 @@
        img:nth-of-type(2) {
          width: 260px;
          height: 106px;
+
+				 transition: 1s;
 
 				 border-radius: 10px;
        }
