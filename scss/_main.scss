@@ -180,9 +180,21 @@
      position: relative;
 
      &>div:nth-of-type(1) {
+			transition: 1s;
+			&:hover img {
+         width: 445px;
+         height: 579px;
+			}
+
+			&:hover p {
+				font-size: 37px;
+				bottom: -50px;
+			}
        img {
          width: 395px;
          height: 529px;
+
+				 transition: 1s;
 
        }
 
@@ -204,13 +216,28 @@
 
          left: 0px;
          bottom: 0px;
+
+				 transition: 1s;
        }
      }
 
      &>div:nth-of-type(2) {
+			transition: 1s;
+			&:hover img {
+         width: 445px;
+         height: 579px;
+			}
+
+			&:hover p {
+				font-size: 37px;
+				bottom: -50px;
+			}
+
        img {
          width: 395px;
          height: 529px;
+
+				 transition: 1s;
        }
 
        p {
@@ -231,6 +258,8 @@
 
          right: 0px;
          bottom: 0px;
+
+				 transition: 1s;
        }
      }
    }
@@ -326,6 +355,8 @@
              height: 292px;
              width: 292px;
 
+						transition: 0.5s;
+
              overflow: hidden;
 
              &:hover img {
@@ -337,10 +368,14 @@
 
                transition: transform 0.25s;
              }
+
+						 &:hover {	
+							box-shadow: 0px 0px 40px 3px rgba(0,0,0,0.9);
+						 }	
            }
 
            &>p {
-             font-family: 'Inter';
+             font-family: 'Raleway';
              font-style: normal;
              font-weight: 400;
              font-size: 24px;
@@ -392,6 +427,8 @@
            height: 292px;
            width: 292px;
 
+					transition: 0.5s;
+
            overflow: hidden;
 
            &:hover img {
@@ -403,6 +440,10 @@
 
              transition: transform 0.25s;
            }
+
+					&:hover {	
+						box-shadow: 0px 0px 40px 3px rgba(0,0,0,0.9);
+					}	
          }
        }
 
